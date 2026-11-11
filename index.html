@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Isabel Felix Advocacia e Consultoria Jurídica | Manaus/AM</title>
+<meta name="description" content="Isabel Felix Advocacia e Consultoria Jurídica, em Manaus/AM. Direito Previdenciário (INSS), BPC/LOAS, planejamento previdenciário, Trabalho, Família e Consumidor.">
+<meta name="theme-color" content="#141414">
+<link rel="icon" type="image/png" href="simbolo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Montserrat:wght@300;400;500;600&display=swap">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LegalService","name":"Isabel Felix Advocacia e Consultoria Jurídica","legalName":"Isabel Vitoria Felix de Souza Sociedade Individual de Advocacia","telephone":"+55 92 99471-7139","email":"juridico.isabelfelix@gmail.com","address":{"@type":"PostalAddress","streetAddress":"Rua Geraldo Nascimento, 1601, Colônia Santo Antônio","addressLocality":"Manaus","addressRegion":"AM","postalCode":"69093-090","addressCountry":"BR"},"areaServed":"Amazonas","sameAs":["https://www.instagram.com/isabelfelixadvocacia/"]}
+</script>
+<style>
+:root{
+  --preto:#141414; --preto-marca:#1e1e1e; --superficie:#1b1a18; --superficie-2:#22201c;
+  --fio:rgba(161,124,75,.38); --fio-suave:rgba(161,124,75,.18); --fio-forte:#967041;
+  --branco:#f7f5f1; --cinza:#b9b4ab; --cinza-2:#8d877d;
+  --ouro:#967041; --ouro-medio:#a17c4b; --ouro-claro:#f8c881;
+  --gradiente:linear-gradient(100deg,#967041 0%,#c9a066 38%,#f8c881 55%,#a17c4b 100%);
+  --f-titulo:"Cinzel","Trajan Pro",Georgia,serif;
+  --f-texto:"Montserrat","Segoe UI",Arial,sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:20px}
+html,body{margin:0;background:var(--preto)}
+body{color:var(--branco);font-family:var(--f-texto);font-weight:300;font-size:15px;line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+img{max-width:100%}
+ul,ol{list-style:none;margin:0;padding:0}
+:focus-visible{outline:2px solid var(--ouro-claro);outline-offset:3px}
+.g{padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- estrutura ---------- */
+.pagina{display:grid;grid-template-columns:1fr;min-height:100%}
+.retrato{position:relative;min-height:min(92vh,760px);overflow:hidden;background:var(--preto-marca)}
+.retrato img.foto{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 18%}
+.retrato::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,20,20,.5) 0%,rgba(20,20,20,0) 22%,rgba(20,20,20,0) 50%,rgba(20,20,20,.92) 84%,var(--preto) 100%)}
+.retrato .assin{position:absolute;z-index:2;left:0;right:0;bottom:30px}
+.papel{display:flex;align-items:center;gap:14px;font-size:13px;letter-spacing:.14em;color:var(--ouro-claro);font-weight:500}
+.papel::before{content:"";width:28px;height:1px;background:var(--ouro-claro)}
+h1{font-family:var(--f-titulo);font-weight:400;font-size:clamp(30px,8.4vw,52px);line-height:1.04;letter-spacing:.02em;margin:14px 0 10px;text-wrap:balance}
+.oab{font-size:13px;letter-spacing:.12em;color:var(--cinza)}
+
+.conteudo{position:relative;padding-block:36px 56px;overflow:hidden}
+.conteudo::before{content:"";position:absolute;right:-120px;top:120px;width:520px;height:420px;background:url(simbolo.png) center/contain no-repeat;opacity:.04;pointer-events:none}
+.col{max-width:600px;margin:0 auto;display:flex;flex-direction:column;gap:64px;position:relative}
+
+/* ---------- títulos ---------- */
+.titulo{margin-bottom:24px}
+.titulo h2{font-family:var(--f-titulo);font-weight:400;font-size:clamp(23px,5.6vw,30px);letter-spacing:.03em;line-height:1.2;margin:0 0 14px;text-wrap:balance}
+.titulo h2::before{content:"";display:block;width:34px;height:1px;background:var(--ouro-claro);margin-bottom:16px}
+.titulo p{margin:0;color:var(--cinza);max-width:52ch}
+
+/* ---------- abertura ---------- */
+.abertura>p{margin:0;font-size:18px;line-height:1.6;color:var(--branco);max-width:34ch}
+.acoes{display:grid;gap:12px;margin-top:28px}
+.btn{display:flex;align-items:center;justify-content:center;gap:12px;min-height:54px;padding:14px 22px;font:500 14px var(--f-texto);letter-spacing:.06em;border:1px solid var(--fio-forte);color:var(--branco);background:none;cursor:pointer}
+.btn svg{width:18px;height:18px;fill:currentColor;flex:none}
+.btn.ouro{background:var(--gradiente);color:#1a1510;border:0;font-weight:600}
+.acoes .par{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (hover:hover){.btn:not(.ouro):hover{border-color:var(--ouro-claro);color:var(--ouro-claro)}.btn.ouro:hover{filter:brightness(1.07)}}
+.aviso-curto{display:grid;grid-template-columns:22px 1fr;gap:12px;margin-top:26px;padding:16px 18px;background:var(--superficie);border:1px solid var(--fio);font-size:13px;color:var(--cinza)}
+.aviso-curto svg{width:20px;height:20px;fill:none;stroke:var(--ouro-claro);stroke-width:1.5;margin-top:2px}
+.aviso-curto b{color:var(--branco);font-weight:500}
+.aviso-curto a{color:var(--ouro-claro);border-bottom:1px solid var(--fio-forte)}
+
+/* ---------- por onde começar ---------- */
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px}
+.chip{font:400 13.5px/1.2 var(--f-texto);color:var(--cinza);background:none;border:1px solid var(--fio);padding:11px 16px;border-radius:999px;cursor:pointer;transition:color .2s,border-color .2s,background .2s}
+@media (hover:hover){.chip:hover{color:var(--ouro-claro);border-color:var(--ouro-claro)}}
+.chip[aria-selected="true"]{background:var(--gradiente);color:#1a1510;border-color:transparent;font-weight:600}
+.painel{background:var(--superficie);border:1px solid var(--fio);border-top:2px solid var(--ouro-medio);padding:28px 24px;min-height:300px}
+.painel.troca{animation:troca .28s ease-out}
+@keyframes troca{from{opacity:.2;transform:translateY(6px)}to{opacity:1;transform:none}}
+.painel h3{font-family:var(--f-titulo);font-weight:400;font-size:clamp(21px,5vw,25px);margin:0 0 12px;letter-spacing:.03em;line-height:1.25}
+.painel .resumo{margin:0 0 22px;color:var(--cinza);font-size:15px;max-width:54ch}
+.duas{display:grid;gap:22px}
+.painel h4{margin:0 0 10px;font-weight:500;font-size:14px;color:var(--ouro-claro);letter-spacing:.04em}
+.painel li{position:relative;padding-left:20px;margin-bottom:7px;font-size:14px;color:var(--branco)}
+.painel li::before{content:"";position:absolute;left:3px;top:.72em;width:5px;height:5px;transform:rotate(45deg);background:var(--ouro)}
+.painel .btn{margin-top:24px;width:100%}
+
+/* ---------- serviços ---------- */
+.grupo+.grupo{margin-top:34px}
+.grupo h3{font-family:var(--f-titulo);font-weight:500;font-size:16px;letter-spacing:.06em;margin:0 0 6px;color:var(--ouro-claro)}
+.grupo>p{margin:0 0 6px;color:var(--cinza-2);font-size:13.5px}
+.lista{border-top:1px solid var(--fio)}
+.lista li{display:grid;grid-template-columns:1fr;gap:2px;padding:14px 0;border-bottom:1px solid var(--fio)}
+.lista b{font-weight:500;font-size:15px}
+.lista small{color:var(--cinza);font-size:13.5px;line-height:1.55}
+
+/* ---------- situações ---------- */
+.situacoes li{padding:20px 0;border-bottom:1px solid var(--fio)}
+.situacoes li:first-child{border-top:1px solid var(--fio)}
+.situacoes b{display:block;font-weight:500;font-size:15.5px;margin-bottom:6px;line-height:1.45}
+.situacoes p{margin:0;color:var(--cinza);font-size:14px;max-width:56ch}
+.situacoes p span{color:var(--ouro-claro);font-weight:500}
+
+/* ---------- método ---------- */
+.metodo{border-top:1px solid var(--fio)}
+.metodo li{display:grid;grid-template-columns:58px 1fr;gap:6px;padding:22px 0;border-bottom:1px solid var(--fio)}
+.metodo .n{font-family:var(--f-titulo);font-size:32px;line-height:1;background:var(--gradiente);-webkit-background-clip:text;background-clip:text;color:transparent}
+.metodo b{display:block;font-weight:500;font-size:15.5px;margin-bottom:2px}
+.metodo p{margin:0;color:var(--cinza);font-size:14px}
+
+/* ---------- documentos ---------- */
+.docs li{display:grid;grid-template-columns:20px 1fr;gap:12px;padding:11px 0;border-bottom:1px solid var(--fio-suave);font-size:14.5px}
+.docs svg{width:14px;height:14px;margin-top:6px;fill:none;stroke:var(--ouro-claro);stroke-width:1.7}
+.docs small{color:var(--cinza-2)}
+
+/* ---------- perguntas ---------- */
+.faq details{border-bottom:1px solid var(--fio)}
+.faq details:first-of-type{border-top:1px solid var(--fio)}
+.faq summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:1fr 20px;gap:16px;align-items:center;padding:18px 0;font-weight:500;font-size:15.5px;line-height:1.45}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"";width:9px;height:9px;border-right:1.5px solid var(--ouro-claro);border-bottom:1.5px solid var(--ouro-claro);transform:rotate(45deg);transition:transform .25s;justify-self:end;margin-top:-4px}
+.faq details[open] summary::after{transform:rotate(-135deg);margin-top:4px}
+.faq details p{margin:0 0 20px;color:var(--cinza);font-size:14.5px;max-width:58ch}
+.faq details p a{color:var(--ouro-claro);border-bottom:1px solid var(--fio-forte)}
+
+/* ---------- contato ---------- */
+.contato{background:var(--superficie);border:1px solid var(--fio);padding:26px 22px;display:grid;gap:4px}
+.item{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;padding:13px 0;border-bottom:1px solid var(--fio-suave)}
+.item:last-child{border-bottom:0}
+.item small{display:block;font-size:12px;letter-spacing:.1em;color:var(--ouro-claro);font-weight:500;margin-bottom:2px}
+.item div{min-width:0;overflow-wrap:anywhere}
+.copiar{background:none;border:0;border-bottom:1px solid var(--fio-forte);color:var(--cinza);font:500 12px var(--f-texto);letter-spacing:.08em;padding:4px 0;cursor:pointer}
+.copiar:hover{color:var(--ouro-claro)}
+.contato-acoes{display:grid;gap:12px;margin-top:18px}
+
+footer{border-top:1px solid var(--fio);padding-top:30px;display:grid;justify-items:center;gap:14px;text-align:center}
+footer img{width:190px;height:auto}
+footer p{margin:0;font-size:12px;color:var(--cinza-2);max-width:56ch;line-height:1.65}
+footer strong{color:var(--cinza);font-weight:500}
+
+/* ---------- desktop ---------- */
+@media (min-width:640px){.duas{grid-template-columns:1fr 1fr;gap:32px}.contato-acoes{grid-template-columns:1fr 1fr}}
+@media (min-width:980px){
+  .pagina{grid-template-columns:minmax(380px,44%) 1fr}
+  .retrato{position:sticky;top:0;height:100vh;min-height:0}
+  .retrato::after{background:linear-gradient(180deg,rgba(20,20,20,.5) 0%,rgba(20,20,20,0) 20%,rgba(20,20,20,0) 55%,rgba(20,20,20,.9) 88%,var(--preto) 100%)}
+  .retrato .assin{bottom:48px}
+  .conteudo{padding-block:88px 72px}
+  .col{max-width:640px;margin:0 0 0 clamp(40px,6vw,100px)}
+  .acoes{grid-template-columns:1.3fr 1fr 1fr}
+  .acoes .par{display:contents}
+}
+@media (prefers-reduced-motion:no-preference){
+  .retrato img.foto{animation:entra 1.6s ease-out both}
+  @keyframes entra{from{transform:scale(1.05)}to{transform:none}}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.painel.troca{animation:none}.faq summary::after{transition:none}}
+</style>
+</head>
+<body>
+
+<div class="pagina">
+
+  <header class="retrato" aria-label="Apresentação">
+    <img class="foto" src="foto.jpg" alt="Dra. Isabel Vitoria Felix de Souza em seu escritório, em Manaus">
+    <div class="assin g">
+      <div class="papel">Advogada previdenciarista</div>
+      <h1>Isabel Vitoria<br>Felix de Souza</h1>
+      <div class="oab">OAB/AM nº 19.896 · Manaus</div>
+    </div>
+  </header>
+
+  <main class="conteudo g">
+    <div class="col">
+
+      <!-- ABERTURA -->
+      <section class="abertura">
+        <p>Orientação jurídica clara para quem precisa do INSS: da análise do seu caso ao benefício na conta.</p>
+        <div class="acoes">
+          <a class="btn ouro" href="https://wa.me/5592994717139?text=Ol%C3%A1%2C%20Dra.%20Isabel!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20atendimento." target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.8-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.7a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3Z"/></svg>
+            Agendar atendimento
+          </a>
+          <div class="par">
+            <a class="btn" href="https://www.instagram.com/isabelfelixadvocacia/" target="_blank" rel="noopener">Instagram</a>
+            <a class="btn" href="#contato">Como chegar</a>
+          </div>
+        </div>
+
+        <div class="aviso-curto" role="note">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17v.5"/></svg>
+          <span><b>Cuidado com golpes de falso advogado.</b> Ligação ou mensagem dizendo que há novidades no seu processo e pedindo senhas, dados bancários ou PIX não é do escritório. <a href="#confirmar">Veja como confirmar</a>.</span>
+        </div>
+      </section>
+
+      <!-- POR ONDE COMEÇAR -->
+      <section id="comecar" aria-labelledby="t-comecar">
+        <div class="titulo">
+          <h2 id="t-comecar">Por onde começar?</h2>
+          <p>Escolha a situação mais parecida com a sua. Você vê o que analisamos, os documentos que ajudam e pode conversar direto com o escritório.</p>
+        </div>
+        <div class="chips" role="tablist" aria-label="Situações" id="chips"></div>
+        <div class="painel" id="painel" role="tabpanel" aria-live="polite"></div>
+      </section>
+
+      <!-- SERVIÇOS -->
+      <section id="servicos" aria-labelledby="t-servicos">
+        <div class="titulo">
+          <h2 id="t-servicos">Serviços do escritório</h2>
+          <p>Atuação administrativa e judicial, com análise individual de cada caso.</p>
+        </div>
+
+        <div class="grupo">
+          <h3>Direito Previdenciário</h3>
+          <ul class="lista">
+            <li><b>Aposentadorias</b><small>Por idade, tempo de contribuição, rural, híbrida, especial e da pessoa com deficiência.</small></li>
+            <li><b>Benefícios por incapacidade</b><small>Auxílio por incapacidade temporária, aposentadoria por incapacidade permanente e auxílio-acidente.</small></li>
+            <li><b>Salário-maternidade</b><small>Para empregadas, autônomas, MEI, facultativas, desempregadas e trabalhadoras rurais.</small></li>
+            <li><b>BPC/LOAS</b><small>Benefício assistencial para a pessoa idosa e para a pessoa com deficiência de baixa renda.</small></li>
+            <li><b>Pensão por morte e auxílio-reclusão</b><small>Proteção para a família do segurado.</small></li>
+            <li><b>Recursos e ações contra o INSS</b><small>Recurso administrativo e ação na Justiça Federal quando o pedido é negado ou o benefício é cortado.</small></li>
+            <li><b>Revisão de benefícios</b><small>Conferência do cálculo e do enquadramento de benefícios já concedidos.</small></li>
+          </ul>
+        </div>
+
+        <div class="grupo">
+          <h3>Consultoria e planejamento</h3>
+          <ul class="lista">
+            <li><b>Planejamento previdenciário</b><small>Para trabalhadores do INSS, servidores públicos (regimes próprios), autônomos e empresários.</small></li>
+            <li><b>Análise previdenciária</b><small>Leitura do CNIS e do histórico de contribuições, com parecer sobre o que falta e o que fazer.</small></li>
+            <li><b>Assessoria ao segurado especial</b><small>Organização de registros e provas da atividade rural, antes mesmo de precisar do benefício.</small></li>
+            <li><b>Diagnóstico para MEI</b><small>Situação de dívidas, possibilidades de regularização e reflexos na proteção previdenciária.</small></li>
+          </ul>
+        </div>
+
+        <div class="grupo">
+          <h3>Outras áreas</h3>
+          <ul class="lista">
+            <li><b>Direito do Trabalho</b><small>Verbas rescisórias, horas extras, FGTS, reconhecimento de vínculo e acidente de trabalho.</small></li>
+            <li><b>Direito de Família</b><small>Guarda, convivência, pensão alimentícia, divórcio, união estável e partilha.</small></li>
+            <li><b>Direito do Consumidor</b><small>Cobranças e descontos indevidos, problemas com bancos e produtos ou serviços com defeito.</small></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- SITUAÇÕES -->
+      <section id="situacoes" aria-labelledby="t-situacoes">
+        <div class="titulo">
+          <h2 id="t-situacoes">Situações que atendemos</h2>
+          <p>Exemplos comuns do dia a dia do escritório, descritos de forma geral para preservar a privacidade de quem confia no nosso trabalho.</p>
+        </div>
+        <ul class="situacoes">
+          <li>
+            <b>O pedido foi negado e a carta do INSS não explica direito o motivo</b>
+            <p><span>Como atuamos:</span> lemos o processo administrativo, identificamos o fundamento da negativa e avaliamos se cabe recurso ou ação judicial.</p>
+          </li>
+          <li>
+            <b>Uma gestante que trabalha por conta própria não sabe se tem direito ao salário-maternidade</b>
+            <p><span>Como atuamos:</span> verificamos o enquadramento e a qualidade de segurada e organizamos o pedido com os documentos certos.</p>
+          </li>
+          <li>
+            <b>Uma família com pessoa com deficiência teve o BPC/LOAS indeferido</b>
+            <p><span>Como atuamos:</span> revisamos renda, composição familiar, laudos e avaliações para entender o que pode ser corrigido.</p>
+          </li>
+          <li>
+            <b>Um agricultor vende a produção, mas nunca guardou documentos da atividade</b>
+            <p><span>Como atuamos:</span> montamos um roteiro de registros e provas da atividade rural para formar, desde já, o histórico que o INSS exige.</p>
+          </li>
+          <li>
+            <b>Um servidor público ou empresário quer saber quando poderá se aposentar</b>
+            <p><span>Como atuamos:</span> simulamos as regras aplicáveis ao seu caso e apontamos o que ajustar nas contribuições.</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- MÉTODO -->
+      <section aria-labelledby="t-metodo">
+        <div class="titulo"><h2 id="t-metodo">Do primeiro contato ao benefício</h2></div>
+        <ol class="metodo">
+          <li><span class="n">1</span><div><b>Análise do caso</b><p>Conferimos seus documentos e o seu CNIS e explicamos, com clareza, o caminho possível.</p></div></li>
+          <li><span class="n">2</span><div><b>Pedido no INSS ou na Justiça</b><p>Com a documentação completa, preparamos e protocolamos o seu pedido.</p></div></li>
+          <li><span class="n">3</span><div><b>Acompanhamento</b><p>Você recebe notícias do andamento pelo WhatsApp do escritório, com retorno pelo menos a cada 30 dias.</p></div></li>
+        </ol>
+      </section>
+
+      <!-- DOCUMENTOS -->
+      <section aria-labelledby="t-docs">
+        <div class="titulo"><h2 id="t-docs">O que levar no primeiro atendimento</h2></div>
+        <ul class="docs">
+          <li><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg><span>RG e CPF, ou CNH</span></li>
+          <li><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg><span>Comprovante de residência atualizado</span></li>
+          <li><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg><span>Carteira de trabalho e carnês de contribuição, se tiver</span></li>
+          <li><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg><span>Carta ou resumo do INSS, se o pedido foi negado</span></li>
+          <li><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg><span>Laudos, exames e receitas <small>· benefícios de saúde e BPC/LOAS</small></span></li>
+          <li><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg><span>Certidão de nascimento <small>· salário-maternidade</small></span></li>
+          <li><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg><span>Documentos da terra e da produção <small>· trabalhador rural</small></span></li>
+        </ul>
+      </section>
+
+      <!-- PERGUNTAS -->
+      <section id="confirmar" class="faq" aria-labelledby="t-faq">
+        <div class="titulo"><h2 id="t-faq">Perguntas frequentes</h2></div>
+
+        <details open>
+          <summary>Como sei que quem falou comigo é mesmo do escritório?</summary>
+          <p>Os canais oficiais são o WhatsApp e telefone (92) 99471-7139, o e-mail juridico.isabelfelix@gmail.com e o Instagram @isabelfelixadvocacia. O escritório não pede senhas, dados de cartão, PIX, depósito ou conta bancária de terceiros por ligação ou mensagem. Valores e formas de pagamento são combinados com você diretamente, no atendimento. Na dúvida, ligue para o número oficial antes de fazer qualquer pagamento ou passar qualquer dado.</p>
+        </details>
+        <details>
+          <summary>O INSS negou meu pedido. Perdi o direito?</summary>
+          <p>Nem sempre. Muitas negativas acontecem por falta de documento, erro de enquadramento ou exigência não cumprida. Cada caso precisa ser analisado e existem prazos para recorrer, por isso guarde a carta do INSS e procure orientação logo.</p>
+        </details>
+        <details>
+          <summary>Qual é a diferença entre benefício do INSS e BPC/LOAS?</summary>
+          <p>Aposentadorias, auxílios e pensões do INSS dependem de contribuição. O BPC/LOAS é assistencial: não exige contribuição, mas exige baixa renda familiar e idade a partir de 65 anos ou deficiência.</p>
+        </details>
+        <details>
+          <summary>O escritório atende fora de Manaus?</summary>
+          <p>Sim. O atendimento é para Manaus e para o interior do Amazonas, de forma presencial ou on-line.</p>
+        </details>
+        <details>
+          <summary>Como acompanho o andamento do meu caso?</summary>
+          <p>Pelo WhatsApp do escritório. Você recebe retorno sobre o andamento pelo menos a cada 30 dias.</p>
+        </details>
+      </section>
+
+      <!-- CONTATO -->
+      <section id="contato" aria-labelledby="t-contato">
+        <div class="titulo"><h2 id="t-contato">Fale com o escritório</h2></div>
+        <div class="contato">
+          <div class="item"><div><small>WhatsApp e telefone</small><span id="tel">(92) 99471-7139</span></div><button class="copiar" type="button" data-copiar="tel">Copiar</button></div>
+          <div class="item"><div><small>E-mail</small><span id="email">juridico.isabelfelix@gmail.com</span></div><button class="copiar" type="button" data-copiar="email">Copiar</button></div>
+          <div class="item"><div><small>Endereço</small><span id="end">Rua Geraldo Nascimento, nº 1601, Colônia Santo Antônio, Manaus/AM · CEP 69.093-090</span></div><button class="copiar" type="button" data-copiar="end">Copiar</button></div>
+          <div class="item"><div><small>Horário</small><span>Segunda a sexta, das 8h às 17h</span></div></div>
+        </div>
+        <div class="contato-acoes">
+          <a class="btn ouro" href="https://wa.me/5592994717139?text=Ol%C3%A1%2C%20Dra.%20Isabel!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20atendimento." target="_blank" rel="noopener">Chamar no WhatsApp</a>
+          <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Rua%20Geraldo%20Nascimento%2C%201601%2C%20Col%C3%B4nia%20Santo%20Ant%C3%B4nio%2C%20Manaus%20AM" target="_blank" rel="noopener">Abrir no mapa</a>
+        </div>
+      </section>
+
+      <footer>
+        <img src="logo.png" alt="Isabel Felix · Advocacia &amp; Consultoria Jurídica">
+        <p><strong>ISABEL VITORIA FELIX DE SOUZA SOCIEDADE INDIVIDUAL DE ADVOCACIA</strong><br>CNPJ 60.344.379/0001-89 · OAB/AM nº 19.896</p>
+        <p>Conteúdo de caráter exclusivamente informativo, nos termos do Provimento nº 205/2021 do Conselho Federal da OAB. Não constitui promessa de resultado nem substitui a análise individual de cada caso.</p>
+      </footer>
+
+    </div>
+  </main>
+</div>
+
+<script>
+(function(){
+  var WA = 'https://wa.me/5592994717139?text=';
+  var DADOS = [
+    {id:'aposentadoria', chip:'Quero me aposentar', titulo:'Aposentadoria',
+     resumo:'Por idade, por tempo de contribuição, rural, híbrida, especial ou da pessoa com deficiência. O ponto de partida é entender o seu histórico no INSS e qual regra se aplica a você.',
+     analisamos:['Seu CNIS: vínculos, contribuições e períodos que faltam','Regras de transição e regra permanente aplicáveis','Períodos de atividade especial, rural ou como autônomo','Se compensa pedir agora ou esperar'],
+     docs:['Documento com foto e CPF','Carteira de trabalho','Extrato do CNIS (Meu INSS)','Carnês ou guias de contribuição','PPP e laudos, se trabalhou em atividade especial']},
+    {id:'negado', chip:'O INSS negou meu pedido', titulo:'Benefício negado ou cortado',
+     resumo:'Um indeferimento nem sempre é o fim. O primeiro passo é ler o motivo da decisão e verificar se cabe recurso administrativo ou ação na Justiça Federal. Existem prazos, por isso não deixe a carta parada.',
+     analisamos:['O motivo registrado pelo INSS no processo administrativo','Se o problema foi de análise, de documento ou de exigência não cumprida','Recurso administrativo ou ação judicial: qual caminho faz sentido'],
+     docs:['Carta ou resumo do indeferimento','Número do requerimento','Documentos que você já enviou ao INSS','Laudos e exames, quando o benefício depende de saúde']},
+    {id:'incapacidade', chip:'Estou doente ou me acidentei', titulo:'Benefícios por incapacidade',
+     resumo:'Auxílio por incapacidade temporária (antigo auxílio-doença), aposentadoria por incapacidade permanente e auxílio-acidente. Além da condição de saúde, contam a qualidade de segurado e, em regra, a carência.',
+     analisamos:['Se você mantém a qualidade de segurado','Carência e as exceções previstas em lei','Se os laudos descrevem a limitação para o trabalho','Preparação para a perícia'],
+     docs:['Laudos, atestados e exames recentes','Receitas e relatórios médicos','Carteira de trabalho e CNIS','Comprovantes de internação ou afastamento']},
+    {id:'maternidade', chip:'Estou grávida ou tive bebê', titulo:'Salário-maternidade',
+     resumo:'Pago por 120 dias a empregadas, contribuintes individuais, MEI, facultativas, desempregadas que ainda mantêm a qualidade de segurada e trabalhadoras rurais. Também existe em caso de adoção ou guarda para fins de adoção. Em regra, o pedido pode ser feito até 5 anos após o parto.',
+     analisamos:['Enquadramento: empregada, MEI, autônoma, rural, desempregada','Se a qualidade de segurada está mantida','Carência, quando exigida','Prova da atividade, no caso de trabalhadora rural'],
+     docs:['Certidão de nascimento do bebê (ou documento da gestação)','Documento com foto e CPF','Carteira de trabalho ou comprovantes de contribuição','Documentos da atividade rural, se for o caso']},
+    {id:'bpc', chip:'Idoso ou pessoa com deficiência sem renda', titulo:'BPC/LOAS',
+     resumo:'Benefício assistencial de um salário mínimo para pessoa idosa (65 anos ou mais) ou pessoa com deficiência de baixa renda. Não exige contribuição ao INSS. Em regra, a renda por pessoa da família deve ser de até 1/4 do salário mínimo, e o CadÚnico precisa estar atualizado.',
+     analisamos:['Composição do grupo familiar e renda','Se há impedimento de longo prazo (mínimo de 2 anos), no caso de deficiência','Atualização do CadÚnico','Preparação para as avaliações médica e social'],
+     docs:['CadÚnico atualizado','Documentos de todos que moram na casa','Laudos e exames','Comprovantes de renda e de despesas com saúde']},
+    {id:'pensao', chip:'Perdi alguém da família', titulo:'Pensão por morte',
+     resumo:'Proteção para os dependentes de quem era segurado do INSS. O valor e a duração do benefício dependem do vínculo com o falecido, da idade do dependente e do tempo de contribuição.',
+     analisamos:['Se o falecido tinha qualidade de segurado','Quem são os dependentes e a prova do vínculo (casamento, união estável, filhos)','O prazo do pedido, que influencia a data de início do benefício'],
+     docs:['Certidão de óbito','Documentos do falecido e dos dependentes','Certidão de casamento ou provas da união estável','Última carteira de trabalho ou CNIS do falecido']},
+    {id:'rural', chip:'Trabalho na roça, na pesca ou na produção familiar', titulo:'Trabalhador rural e segurado especial',
+     resumo:'Aposentadoria rural, salário-maternidade e benefícios por incapacidade para quem vive da atividade rural em regime de economia familiar. O que decide o caso é a prova da atividade, por isso vale organizar os documentos antes de pedir, mesmo que o benefício ainda esteja longe.',
+     analisamos:['Cadastro do segurado especial e documentos da atividade','Início de prova material e prova testemunhal','Período de atividade rural exigido para cada benefício'],
+     docs:['Documentos pessoais','Notas de venda da produção ou do produtor rural','Comprovantes da terra ou do local da atividade','Documentos antigos que mostrem a profissão rural']},
+    {id:'planejamento', chip:'Quero planejar minha aposentadoria', titulo:'Planejamento previdenciário',
+     resumo:'Para trabalhadores do INSS, servidores públicos (regimes próprios), autônomos e empresários. A análise mostra em que data você alcança cada regra e o que fazer, desde hoje, para chegar à aposentadoria em boas condições.',
+     analisamos:['Simulação das regras de aposentadoria aplicáveis a você','Contribuições a corrigir, complementar ou recolher','Períodos de trabalho ainda não reconhecidos','Servidores: regras do regime próprio e transições'],
+     docs:['Extrato do CNIS','Certidões de tempo de contribuição, se houver','Carteira de trabalho e carnês','Para servidores: ficha funcional e histórico de cargos']},
+    {id:'mei', chip:'Sou MEI e tenho dívidas', titulo:'Diagnóstico para MEI',
+     resumo:'Levantamento da situação do seu MEI: débitos, possibilidades de regularização, renegociação ou perdão de dívidas previstas em lei, e o que isso significa para a sua contribuição previdenciária e para benefícios como aposentadoria, auxílio por incapacidade e salário-maternidade.',
+     analisamos:['Débitos em aberto do MEI','Se a situação permite aderir a programa de regularização','Efeito das contribuições em atraso nos seus benefícios','Passos para manter o MEI em dia'],
+     docs:['CNPJ e comprovante de inscrição','Extrato de débitos do MEI','Guias (DAS) pagas e em aberto','Declaração anual do MEI (DASN)']},
+    {id:'trabalho', chip:'Problema no trabalho', titulo:'Direito do Trabalho',
+     resumo:'Verbas rescisórias, horas extras, FGTS, reconhecimento de vínculo e acidente ou doença do trabalho.',
+     analisamos:['Contrato, jornada e remuneração','Valores que podem estar em aberto','Prazos para reclamar, que na área trabalhista costumam ser curtos'],
+     docs:['Carteira de trabalho','Contracheques e termo de rescisão','Mensagens ou registros de jornada','Extrato do FGTS']},
+    {id:'familia', chip:'Guarda, pensão ou divórcio', titulo:'Direito de Família',
+     resumo:'Guarda, convivência, pensão alimentícia (fixação, revisão e execução), divórcio, união estável e partilha.',
+     analisamos:['Necessidade de quem recebe e possibilidade de quem paga, nos alimentos','Situação de guarda e convivência já existente','Bens e dívidas a partilhar'],
+     docs:['Documentos pessoais e certidões','Comprovantes de renda e de despesas','Dados da outra parte (endereço e trabalho)','Certidão de casamento ou provas de união estável']},
+    {id:'consumidor', chip:'Cobrança ou desconto indevido', titulo:'Direito do Consumidor',
+     resumo:'Cobranças e descontos indevidos, problemas com bancos e empresas, negativação irregular e produtos ou serviços com defeito.',
+     analisamos:['Contrato e histórico de cobranças','Se há descontos em benefício do INSS ou em conta','Tentativas de solução que você já fez'],
+     docs:['Contratos e faturas','Extratos bancários','Protocolos de atendimento e prints de conversas','Notas fiscais']}
+  ];
+
+  var chips = document.getElementById('chips');
+  var painel = document.getElementById('painel');
+
+  function li(arr){return arr.map(function(t){return '<li>'+t+'</li>'}).join('')}
+
+  function mostrar(i, animar){
+    var d = DADOS[i];
+    [].forEach.call(chips.children, function(c,k){
+      c.setAttribute('aria-selected', k===i ? 'true' : 'false');
+      c.tabIndex = k===i ? 0 : -1;
+    });
+    var msg = encodeURIComponent('Olá, Dra. Isabel! Vim pelo site e gostaria de conversar sobre: '+d.chip+'.');
+    painel.innerHTML =
+      '<h3>'+d.titulo+'</h3>'+
+      '<p class="resumo">'+d.resumo+'</p>'+
+      '<div class="duas"><div><h4>O que analisamos</h4><ul>'+li(d.analisamos)+'</ul></div>'+
+      '<div><h4>Documentos que ajudam</h4><ul>'+li(d.docs)+'</ul></div></div>'+
+      '<a class="btn ouro" target="_blank" rel="noopener" href="'+WA+msg+'">Conversar sobre este caso</a>';
+    painel.setAttribute('aria-labelledby','tab-'+d.id);
+    if(animar){painel.classList.remove('troca');void painel.offsetWidth;painel.classList.add('troca')}
+  }
+
+  DADOS.forEach(function(d,i){
+    var b = document.createElement('button');
+    b.type='button'; b.className='chip'; b.id='tab-'+d.id; b.textContent=d.chip;
+    b.setAttribute('role','tab');
+    b.addEventListener('click', function(){mostrar(i,true)});
+    b.addEventListener('keydown', function(e){
+      var n = null;
+      if(e.key==='ArrowRight'||e.key==='ArrowDown') n=(i+1)%DADOS.length;
+      if(e.key==='ArrowLeft'||e.key==='ArrowUp') n=(i-1+DADOS.length)%DADOS.length;
+      if(n!==null){e.preventDefault();mostrar(n,true);chips.children[n].focus()}
+    });
+    chips.appendChild(b);
+  });
+  mostrar(0,false);
+
+  document.querySelectorAll('.copiar').forEach(function(b){
+    b.addEventListener('click',function(){
+      var el=document.getElementById(b.dataset.copiar), t=el.textContent.trim();
+      function ok(){b.textContent='Copiado';setTimeout(function(){b.textContent='Copiar'},1800)}
+      function sel(){var r=document.createRange();r.selectNodeContents(el);var s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selecionado'}
+      try{navigator.clipboard.writeText(t).then(ok,sel)}catch(e){sel()}
+    });
+  });
+})();
+</script>
+</body>
+</html>
